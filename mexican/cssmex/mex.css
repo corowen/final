@@ -1,0 +1,30 @@
+ul {
+    list-style: none;
+    float: right;
+}
+
+li {
+    display: inline;
+    padding: 8px;
+    background-color: black;
+}
+
+.headline{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: azure;
+}
+
+a:hover {
+    color: gray;
+}
