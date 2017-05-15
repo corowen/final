@@ -1,0 +1,16 @@
+.box {
+    position: fixed;
+    max-width: 400px;
+    bottom: 0;
+    right: 0;
+}
+
+ul {
+    list-style: none;
+    float: right;
+}
+
+li {
+    display: inline;
+    padding: 8px;
+}
