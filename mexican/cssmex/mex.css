@@ -1,16 +1,27 @@
+.navi{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 ul {
     list-style: none;
     float: right;
+    margin-right: 30px;
 }
 
 li {
     display: inline;
     padding: 8px;
-    background-color: black;
 }
 
-.headline{
-    color: red;
+.headline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 a{
@@ -27,4 +38,12 @@ a:visited {
 
 a:hover {
     color: gray;
+}
+
+.back {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    right: 20px;
+    padding: 10px;
 }
