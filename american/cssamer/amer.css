@@ -1,3 +1,4 @@
+/* fixes navigation bar to top of the screen */
 .navi{
     background-color: black;
     width: 100%;
@@ -7,21 +8,25 @@
     right: 0;
 }
 
+/* makes sure list is in correct place and doesn't look like a default list */
 ul {
     list-style: none;
     float: right;
     margin-right: 30px;
 }
 
+/* makes sure list items are centered and horizontal */
 li {
     display: inline;
     padding: 8px;
 }
 
+/* shows which page the user is on */
 .current{
     color: cyan !important;
 }
 
+/* Centers link to content */
 .headline {
     position: absolute;
     text-align: center;
@@ -29,22 +34,27 @@ li {
     left: 50%;
 }
 
+/* gets rid of underlines in links */
 a{
     text-decoration: none;
 }
 
+/* color of links */
 a:link {
     color: white;
 }
 
+/* color of visited links */
 a:visited {
     color: azure;
 }
 
+/* color of links when hovered */
 a:hover {
     color: gray;
 }
 
+/* makes sure backgorund image is in the back, fixed, and scales */
 #bg{
     width: 200%;
     height: 200%;
@@ -54,6 +64,7 @@ a:hover {
     z-index: -1;
 }
 
+/* controls image size and position */
 #bg img{
     position: absolute;
     top: 0;
@@ -65,10 +76,7 @@ a:hover {
     min-height: 50%;
 }
 
-.content:{
-    float: left;
-}
-
+/* bottom black bar */
 .next {
     background-color: black;
     width: 100%;
@@ -78,6 +86,5 @@ a:hover {
     right: 0;
     height: 50px;
     margin-bottom: -20px;
-    text-align: center;
     padding: 8px;
 }

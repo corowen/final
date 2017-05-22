@@ -1,3 +1,4 @@
+/* sets box to bottom right of screen */
 .box {
     position: fixed;
     max-width: 400px;
@@ -5,6 +6,7 @@
     right: 0;
 }
 
+/* fixes navigation bar to top of the screen */
 .navi{
     background-color: black;
     width: 100%;
@@ -14,33 +16,40 @@
     right: 0;
 }
 
+/* makes sure list is in correct place and doesn't look like a default list */
 ul {
     list-style: none;
     float: right;
     margin-right: 30px;
 }
 
+/* makes sure list items are centered and horizontal */
 li {
     display: inline;
     padding: 8px;
 }
 
+/* shows which page the user is on */
 .current{
     color: cyan !important;
 }
 
+/* gets rid of underlines in links */
 a{
     text-decoration: none;
 }
 
+/* color of links */
 a:link {
     color: white;
 }
 
+/* color of visited links */
 a:visited {
     color: azure;
 }
 
+/* color of links when hovered */
 a:hover {
     color: gray;
 }
