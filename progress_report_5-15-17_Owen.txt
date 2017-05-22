@@ -1,0 +1,243 @@
+Last login: Mon May 15 09:42:58 on ttys000
+grc-argentina:~ cowen02$ ls
+Corey Owen	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+grc-argentina:~ cowen02$ cd Desktop
+grc-argentina:Desktop cowen02$ ls
+GrC 203			GrC 338			deskpackclient.log
+GrC 316			GrC 402
+grc-argentina:Desktop cowen02$ cd "GrC 338"
+grc-argentina:GrC 338 cowen02$ ls
+338_02_L03_cowen	Terminal 4_10 Owen.txt	grc-338-project-1-owen
+338_02_L4_owen		Terminal Lab 4 Owen.txt	test.css
+338_02_Owen_final	Terminal Lab 5 Owen.txt	test.html
+338_02_owen_lab1	Terminal Lab 6 Owen.txt
+338_section02_L5_owen	adobe_logo.eps
+grc-argentina:GrC 338 cowen02$ cd 338_02_Owen_final
+grc-argentina:338_02_Owen_final cowen02$ ls
+american	css		index.html	seafood
+chinese		images		mexican
+grc-argentina:338_02_Owen_final cowen02$ git commit -am "added sources file to all images folders"
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Untracked files:
+	.DS_Store
+	american/.DS_Store
+	american/amer.html
+	american/imagesamer/
+	chinese/.DS_Store
+	chinese/chin.html
+	chinese/imageschin/
+	mexican/.DS_Store
+	mexican/imagesmex/
+	mexican/mex.html
+	seafood/.DS_Store
+	seafood/imagessea/
+	seafood/sea.html
+
+nothing added to commit but untracked files present
+grc-argentina:338_02_Owen_final cowen02$ git add -A
+grc-argentina:338_02_Owen_final cowen02$ ls
+american	css		index.html	seafood
+chinese		images		mexican
+grc-argentina:338_02_Owen_final cowen02$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   .DS_Store
+	new file:   american/.DS_Store
+	new file:   american/amer.html
+	new file:   american/imagesamer/lobster_roll.jpg
+	new file:   american/imagesamer/sources.txt
+	new file:   chinese/.DS_Store
+	new file:   chinese/chin.html
+	new file:   chinese/imageschin/sources.txt
+	new file:   mexican/.DS_Store
+	new file:   mexican/imagesmex/sources.txt
+	new file:   mexican/mex.html
+	new file:   seafood/.DS_Store
+	new file:   seafood/imagessea/sources.txt
+	new file:   seafood/sea.html
+
+grc-argentina:338_02_Owen_final cowen02$ git commit -am "added sources file to all images folder"
+[master a77186f] added sources file to all images folder
+ 14 files changed, 125 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 american/.DS_Store
+ create mode 100644 american/amer.html
+ create mode 100644 american/imagesamer/lobster_roll.jpg
+ create mode 100644 american/imagesamer/sources.txt
+ create mode 100644 chinese/.DS_Store
+ create mode 100644 chinese/chin.html
+ create mode 100644 chinese/imageschin/sources.txt
+ create mode 100644 mexican/.DS_Store
+ create mode 100644 mexican/imagesmex/sources.txt
+ create mode 100644 mexican/mex.html
+ create mode 100644 seafood/.DS_Store
+ create mode 100644 seafood/imagessea/sources.txt
+ create mode 100644 seafood/sea.html
+grc-argentina:338_02_Owen_final cowen02$ git log
+commit a77186f93d871f651551c051b6af007b0d62d151
+Author: Corey Owen <corowen14@gmail.com>
+Date:   Mon May 15 11:15:24 2017 -0700
+
+    added sources file to all images folder
+
+commit 595ad1dcdbf4982c5a7a0854010689c69ed1182d
+Author: Corey Owen <corowen14@gmail.com>
+Date:   Mon May 15 11:05:07 2017 -0700
+
+    added button to go back to top on all pages
+
+commit 16ddc05af49f19a5c2137f2efa759ddf5cc9a2b3
+Author: Corey Owen <corowen14@gmail.com>
+Date:   Mon May 15 10:34:44 2017 -0700
+
+    fixed navigation bar on all html files
+
+commit 9c6c08379bc0d429377915a6f372cef70c1d1ee2
+Author: Corey Owen <corowen14@gmail.com>
+Date:   Mon May 15 10:19:23 2017 -0700
+
+    added basic text to index.html and added html files to folders
+
+commit 93dfaa7afa5a49d7b4f68a545847828943dc1d26
+Author: Corey Owen <corowen14@gmail.com>
+Date:   Mon May 15 09:55:04 2017 -0700
+
+    added file structure
+grc-argentina:338_02_Owen_final cowen02$ 
+grc-argentina:338_02_Owen_final cowen02$ git diff
+grc-argentina:338_02_Owen_final cowen02$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+grc-argentina:338_02_Owen_final cowen02$ git push
+Counting objects: 49, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (49/49), 120.08 KiB | 0 bytes/s, done.
+Total 49 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas: 100% (12/12), done.
+To https://github.com/corowen/final.git
+   93dfaa7..a77186f  master -> master
+grc-argentina:338_02_Owen_final cowen02$ git commit -am "added images to american"
+[master acde019] added images to american
+ 4 files changed, 11 insertions(+), 1 deletion(-)
+grc-argentina:338_02_Owen_final cowen02$ git push
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.43 KiB | 0 bytes/s, done.
+Total 9 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/corowen/final.git
+   a77186f..acde019  master -> master
+grc-argentina:338_02_Owen_final cowen02$ git commit -am "added images to mexican"
+[master c1a5d8c] added images to mexican
+ 1 file changed, 9 insertions(+)
+grc-argentina:338_02_Owen_final cowen02$ git diff
+grc-argentina:338_02_Owen_final cowen02$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	american/imagesamer/american_apple_pie.jpg
+	american/imagesamer/buckeyes.jpg
+	american/imagesamer/crawfish_etouffee.jpg
+	american/imagesamer/deep_dish_pizza.jpg
+	american/imagesamer/detroit-style-coneys.jpg
+	american/imagesamer/fish_tacos.jpg
+	american/imagesamer/kansas_bbq.jpg
+	american/imagesamer/napa_valley_wine.jpg
+	american/imagesamer/southern_fried_chicken.jpg
+	american/imagesamer/texas_bbq.jpg
+	mexican/imagesmex/aguas_frescas.jpg
+	mexican/imagesmex/barbacoa.jpg
+	mexican/imagesmex/churros.jpg
+	mexican/imagesmex/cotija_cheese.jpg
+	mexican/imagesmex/huachinango_a_la_veracruzana.jpg
+	mexican/imagesmex/mexico_city_flautas.jpg
+	mexican/imagesmex/mole.jpg
+	mexican/imagesmex/tacos_al_pastor.jpg
+	mexican/imagesmex/tamales.jpg
+
+nothing added to commit but untracked files present (use "git add" to track)
+grc-argentina:338_02_Owen_final cowen02$ git add -A
+grc-argentina:338_02_Owen_final cowen02$ ls
+american	css		index.html	seafood
+chinese		images		mexican
+grc-argentina:338_02_Owen_final cowen02$ git commit -am "git add"
+[master 8869ef3] git add
+ 19 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 american/imagesamer/american_apple_pie.jpg
+ create mode 100644 american/imagesamer/buckeyes.jpg
+ create mode 100644 american/imagesamer/crawfish_etouffee.jpg
+ create mode 100644 american/imagesamer/deep_dish_pizza.jpg
+ create mode 100644 american/imagesamer/detroit-style-coneys.jpg
+ create mode 100644 american/imagesamer/fish_tacos.jpg
+ create mode 100644 american/imagesamer/kansas_bbq.jpg
+ create mode 100644 american/imagesamer/napa_valley_wine.jpg
+ create mode 100644 american/imagesamer/southern_fried_chicken.jpg
+ create mode 100644 american/imagesamer/texas_bbq.jpg
+ create mode 100644 mexican/imagesmex/aguas_frescas.jpg
+ create mode 100644 mexican/imagesmex/barbacoa.jpg
+ create mode 100644 mexican/imagesmex/churros.jpg
+ create mode 100644 mexican/imagesmex/cotija_cheese.jpg
+ create mode 100644 mexican/imagesmex/huachinango_a_la_veracruzana.jpg
+ create mode 100644 mexican/imagesmex/mexico_city_flautas.jpg
+ create mode 100644 mexican/imagesmex/mole.jpg
+ create mode 100644 mexican/imagesmex/tacos_al_pastor.jpg
+ create mode 100644 mexican/imagesmex/tamales.jpg
+grc-argentina:338_02_Owen_final cowen02$ ls
+american	css		index.html	seafood
+chinese		images		mexican
+grc-argentina:338_02_Owen_final cowen02$ git diff
+grc-argentina:338_02_Owen_final cowen02$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+grc-argentina:338_02_Owen_final cowen02$ git push
+Counting objects: 30, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (30/30), 12.92 MiB | 8.71 MiB/s, done.
+Total 30 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 3 local objects.
+git diff
+To https://github.com/corowen/final.git
+   acde019..8869ef3  master -> master
+grc-argentina:338_02_Owen_final cowen02$ git diff
+grc-argentina:338_02_Owen_final cowen02$ git log
+commit 8869ef341aca63c78dff3b5bf8802004d5a7fcd2
+Author: Corey Owen <corowen14@gmail.com>
+Date:   Mon May 15 11:57:49 2017 -0700
+
+    git add
+
+commit c1a5d8c834ebd839285e921090a4dbee4b378a0d
+Author: Corey Owen <corowen14@gmail.com>
+Date:   Mon May 15 11:57:24 2017 -0700
+
+    added images to mexican
+
+commit acde0192ace1b144bcefb4edadccc0c155d4e6a1
+Author: Corey Owen <corowen14@gmail.com>
+Date:   Mon May 15 11:39:45 2017 -0700
+
+    added images to american
+
+commit a77186f93d871f651551c051b6af007b0d62d151
+Author: Corey Owen <corowen14@gmail.com>
+Date:   Mon May 15 11:15:24 2017 -0700
+
+    added sources file to all images folder
+:

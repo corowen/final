@@ -18,6 +18,10 @@ li {
     padding: 8px;
 }
 
+.current{
+    color: cyan !important;
+}
+
 .headline {
     position: absolute;
     top: 50%;
