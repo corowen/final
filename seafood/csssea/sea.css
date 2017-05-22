@@ -44,6 +44,26 @@ a:hover {
     color: gray;
 }
 
+#bg{
+    width: 200%;
+    height: 200%;
+    position: fixed;
+    left: -50%;
+    top: -50%;
+    z-index: -1;
+}
+
+#bg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
 .next {
     background-color: black;
     width: 100%;
