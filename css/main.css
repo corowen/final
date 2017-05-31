@@ -53,3 +53,33 @@ a:visited {
 a:hover {
     color: gray;
 }
+
+/* Centers link to content */
+.headline {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 10%;
+}
+
+/* makes sure backgorund image is in the back, fixed, and scales */
+#bg{
+    width: 200%;
+    height: 200%;
+    position: fixed;
+    left: -50%;
+    top: -50%;
+    z-index: -1;
+}
+
+/* controls image size and position */
+#bg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
