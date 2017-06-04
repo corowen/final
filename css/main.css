@@ -4,6 +4,14 @@
     max-width: 400px;
     bottom: 0;
     right: 0;
+    background-color: rgba(15, 15, 15, 0.5);
+    padding: 5%;
+}
+
+.content{
+    line-height: 170%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: white;
 }
 
 /* fixes navigation bar to top of the screen */

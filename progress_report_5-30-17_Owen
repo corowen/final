@@ -1,0 +1,35 @@
+Last login: Tue May 30 20:34:47 on ttys000
+Coreys-MacBook-Pro:~ Corey$ cd Desktop
+Coreys-MacBook-Pro:Desktop Corey$ ls
+Adobe Premiere Pro Auto-Save		TT & T Stuff
+Cookbook				final
+Flash Drive Back Up			images
+School					index.html
+Sharpell Technologies Design		saved
+Summer Design 				styles-contact.css
+TT & T Presentation Final Folder	zach stuff
+Coreys-MacBook-Pro:Desktop Corey$ cd final
+Coreys-MacBook-Pro:final Corey$ git log
+commit 9a09aef8d566a128f3cf26b474cecf870eb4319d
+Author: Corey Owen <Corey@Coreys-MacBook-Pro.local>
+Date:   Tue May 30 20:54:44 2017 -0700
+
+    moved iamges around, put placeholder images on pages, removed bottom black bars
+
+commit e917530bf4b8e2a61c5a35cb876c970d493925af
+Author: Corey Owen <Corey@Coreys-MacBook-Pro.local>
+Date:   Tue May 30 20:39:45 2017 -0700
+
+    added new images, updated home page
+
+commit 2fb34a30ddd883221947942c109d2690d415a277
+Author: Corey Owen <corowen14@gmail.com>
+Date:   Mon May 22 11:59:40 2017 -0700
+
+    commented html and css
+
+commit d6335808f6e853ce3f241f9977eae98e6a695bee
+Author: Corey Owen <corowen14@gmail.com>
+Date:   Mon May 22 11:43:47 2017 -0700
+
+:
