@@ -85,16 +85,19 @@ a:hover {
     min-height: 25%;
 }
 
+/* makes sure image is correct size */
 .image{
     display: block;
     width: 100%;
     height: auto;
 }
 
+/* adds hover effect */
 .container:hover .headline{
     opacity: 1;
 }
 
+/* formats the transition */
 .text{
     top: 100%;
     left: 100%;
