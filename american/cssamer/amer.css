@@ -19,6 +19,9 @@ ul {
 li {
     display: inline;
     padding: 8px;
+    line-height: 170%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: white;
 }
 
 /* shows which page the user is on */
@@ -29,9 +32,15 @@ li {
 /* Centers link to content */
 .headline {
     position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120%;
+    width: 120%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: black;
 }
 
 /* gets rid of underlines in links */
@@ -72,6 +81,23 @@ a:hover {
     right: 0;
     bottom: 0;
     margin: auto;
-    min-width: 50%;
-    min-height: 50%;
+    min-width: 25%;
+    min-height: 25%;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container:hover .headline{
+    opacity: 1;
+}
+
+.text{
+    top: 100%;
+    left: 100%;
+    transform: translate(-23%, -1%);
+    -ms-transform: translate(-23%, -1%);
 }
