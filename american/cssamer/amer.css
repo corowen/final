@@ -1,5 +1,14 @@
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+img {
+    max-width: 700px;
+    max-height: 420px;
+}
+
 /* fixes navigation bar to top of the screen */
-.navi{
+.navi {
     background-color: black;
     width: 100%;
     position: fixed;
@@ -9,14 +18,14 @@
 }
 
 /* makes sure list is in correct place and doesn't look like a default list */
-ul {
+.unnavi {
     list-style: none;
     float: right;
     margin-right: 30px;
 }
 
 /* makes sure list items are centered and horizontal */
-li {
+.linavi {
     display: inline;
     padding: 8px;
     line-height: 170%;
@@ -103,4 +112,44 @@ a:hover {
     left: 100%;
     transform: translate(-23%, -1%);
     -ms-transform: translate(-23%, -1%);
+}
+
+.container {
+    margin: 3%;
+    height: 100%;
+    min-width: 80%;
+    display: flex;
+    justify-content: center;
+    border-width: 5px;
+    border-style: solid;
+    overflow: scroll;
+    padding: 3%;
+}
+
+figcaption{
+    margin-left: 7%;
+    margin-top: 3%;
+    min-width: 30%;
+}
+
+span{
+    font-weight: bold;
+}
+
+.ing {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+.dir {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 330%;
+    line-height: 100%;
 }
