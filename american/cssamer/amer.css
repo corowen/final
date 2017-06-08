@@ -1,7 +1,9 @@
+/* universal font */
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+/* sets images width to a certain width */
 img {
     max-width: 700px;
     max-height: 420px;
