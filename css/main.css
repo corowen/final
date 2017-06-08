@@ -66,8 +66,8 @@ a:hover {
 .headline {
     position: absolute;
     text-align: center;
-    top: 20%;
-    left: 10%;
+    top: 15%;
+    left: 20%;
 }
 
 /* makes sure backgorund image is in the back, fixed, and scales */
