@@ -1,0 +1,48 @@
+Last login: Wed Jun  7 20:23:09 on ttys000
+Coreys-MacBook-Pro:~ Corey$ ls
+Applications		Downloads		Pictures
+Creative Cloud Files	Library			Public
+Desktop			Movies			ftb
+Documents		Music
+Coreys-MacBook-Pro:~ Corey$ cd Desktop
+Coreys-MacBook-Pro:Desktop Corey$ ls
+Adobe Premiere Pro Auto-Save		TT & T Stuff
+Cookbook				final
+Flash Drive Back Up			images
+School					index.html
+Sharpell Technologies Design		saved
+Summer Design 				styles-contact.css
+TT & T Presentation Final Folder	zach stuff
+Coreys-MacBook-Pro:Desktop Corey$ cd final
+Coreys-MacBook-Pro:final Corey$ ls
+american				mexican
+chinese					progress_report_5-15-17_Owen.txt
+css					progress_report_5-30-17_Owen
+final					progress_report_6-3-17_Owen
+images					seafood
+index.html
+Coreys-MacBook-Pro:final Corey$ git log
+commit 8790f5f39c2d7fede99a145bc2e775139d813247
+Author: Corey Owen <Corey@Coreys-MacBook-Pro.local>
+Date:   Wed Jun 7 22:43:37 2017 -0700
+
+    finished chinfood
+
+commit 856c044d063e69e39d6b8b0429e5a26c5ef39221
+Author: Corey Owen <Corey@Coreys-MacBook-Pro.local>
+Date:   Wed Jun 7 22:02:21 2017 -0700
+
+    commented css
+
+commit 2720e778c3230885c13461bb19767b68b51ad82f
+Author: Corey Owen <Corey@Coreys-MacBook-Pro.local>
+Date:   Wed Jun 7 21:59:14 2017 -0700
+
+    finished amerfood
+
+commit ac93b67f3666adadd5f1f5dc2e01aa0a829dc42b
+Author: Corey Owen <Corey@Coreys-MacBook-Pro.local>
+Date:   Wed Jun 7 21:34:45 2017 -0700
+
+    added content to amerfood
+:

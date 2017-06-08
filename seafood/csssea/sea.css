@@ -1,3 +1,14 @@
+/* universal font */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* sets images width to a certain width */
+img {
+    max-width: 700px;
+    max-height: 420px;
+}
+
 /* fixes navigation bar to top of the screen */
 .navi{
     background-color: black;
@@ -9,14 +20,14 @@
 }
 
 /* makes sure list is in correct place and doesn't look like a default list */
-ul {
+.unnavi {
     list-style: none;
     float: right;
     margin-right: 30px;
 }
 
 /* makes sure list items are centered and horizontal */
-li {
+.linavi {
     display: inline;
     padding: 8px;
     line-height: 170%;
@@ -81,8 +92,8 @@ a:hover {
     right: 0;
     bottom: 0;
     margin: auto;
-    min-width: 50%;
-    min-height: 50%;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 /* makes sure image is correct size */
@@ -103,4 +114,50 @@ a:hover {
     left: 100%;
     transform: translate(-13%, -1%);
     -ms-transform: translate(-13%, -1%);
+}
+
+/* formats the container */
+.container {
+    margin: 3%;
+    height: 100%;
+    min-width: 80%;
+    display: flex;
+    justify-content: center;
+    border-width: 5px;
+    border-style: solid;
+    overflow: scroll;
+    padding: 3%;
+}
+
+/* formats figcaption within the div */
+figcaption{
+    margin-left: 7%;
+    margin-top: 3%;
+    min-width: 30%;
+}
+
+/* bolds text */
+span{
+    font-weight: bold;
+}
+
+/* sets width and position of ingredients */
+.ing {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+/* sets width and position of directions */
+.dir {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+/* formats the title */
+.title {
+    font-weight: bold;
+    font-size: 330%;
+    line-height: 100%;
 }
