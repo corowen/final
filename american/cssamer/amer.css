@@ -114,6 +114,7 @@ a:hover {
     -ms-transform: translate(-23%, -1%);
 }
 
+/* formats the container */
 .container {
     margin: 3%;
     height: 100%;
@@ -126,28 +127,33 @@ a:hover {
     padding: 3%;
 }
 
+/* formats figcaption within the div */
 figcaption{
     margin-left: 7%;
     margin-top: 3%;
     min-width: 30%;
 }
 
+/* bolds text */
 span{
     font-weight: bold;
 }
 
+/* sets width and position of ingredients */
 .ing {
     float: left;
     width: 40%;
     padding: 10px;
 }
 
+/* sets width and position of directions */
 .dir {
     float: left;
     width: 40%;
     padding: 10px;
 }
 
+/* formats the title */
 .title {
     font-weight: bold;
     font-size: 330%;
